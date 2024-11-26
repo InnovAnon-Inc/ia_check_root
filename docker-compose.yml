@@ -5,6 +5,10 @@ services:
       context:        .
       tags:
         - innovanon/ia_check_root:latest
+        -           ia_check_root:latest
+        - innovanon/ia_check_root
+        -           ia_check_root
+    image:            innovanon/ia_check_root
     restart:          no
     logging:
       driver:         syslog   
